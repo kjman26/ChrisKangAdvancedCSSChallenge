@@ -1,0 +1,4 @@
+.titles {display: inline-flex;
+    border-right: solid; border-right-color: blue; color: gray;}
+
+nav ul {display:inline;text-align:center; text-decoration: underline; list-style-type: none}
