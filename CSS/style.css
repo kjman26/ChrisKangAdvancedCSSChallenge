@@ -26,10 +26,16 @@ p.indent {
     text-indent: 30px;
     width: 70%;
        }
-
-.background-boxes{display:inline-flex: solid;}   
-
-
+   
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width:600px;
+    margin-left: 30px;
+    border: solid;
+    justify-content: space-evenly;
+}
 
 .title{
     display: flexbox;
@@ -37,36 +43,50 @@ p.indent {
     width: 22%;
     border-style: solid;
     background-color: cyan;
-    justify-content: space-around
+    justify-content: space-around;
+    font-size: 12px
     ;}  
 
-#box1{
-    display:flex; 
-    background-color: cyan;
-    flex-wrap: wrap;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMb4W4Y1MVKa8FogopUMSd5ujo3CbfylGw&usqp=CAU");
-}
-#box2{}
-
-#work{
-    display: flex;
-    flex-direction: row;
+#first-title{
+    background-image:url("https://mcdn.wallpapersafari.com/medium/86/22/GB49kZ.jpg");
+    background-size: cover;
+    width: 600px;
+    position: relative;
 }
 
-.projects{
-    display: flex;
-    width:70%;
-    margin-left: 30px;
-    background-color: cyan;
+#second-title{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReRAlnOC7CHORjdf4LMYgaLXqosRcK5LxFjQ&usqp=CAU");
+    background-size: cover;
+    position: relative;
+    width: 50%;
+
 }
 
-.grid{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    grid-template-columns: repeat (2, 2fr);
-    border-style: solid; border-color: red;}
+#third-title {
+    background-image:url("https://s3.envato.com/files/278891583/Calculator%20flat%20lay%20grey%20screen%20%20banner%20background.jpg");
+    background-size: cover;
+    position: relative;
+    width: 50%;
+}
+
+#fourth-title{
+    background-image:url("https://w7.pngwing.com/pngs/233/203/png-transparent-jigsaw-puzzles-puzzle-background-miscellaneous-sky-puzzle-video-game-thumbnail.png");
+    background-size: cover;
+    position: relative;
+    width: 50%;
+}
+
+#fifth-title{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMAOj1MDXR8Iyx7prkpnmDoRrxFXtSFnD2Fg&usqp=CAU");
+    background-size: cover;
+    position: relative;
+    width: 50%;
+}
+
+
+.title:hover{
+    filter:drop-shadow(5px)
+}
 
 
 .contact-info{
