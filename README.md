@@ -1,5 +1,8 @@
 # advancedcsschallenge
 Github address:
+    https://github.com/kjman26/advancedcsschallenge
+
+<!-- SCREENSHOT! -->
 
 Motivation and Purpose: The goal of this challenge is to create an interactive profile to showcase myself and my work portfolios.
 
