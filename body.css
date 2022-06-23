@@ -38,8 +38,15 @@ p.indent {
     border-style: solid;
     background-color: cyan;
     justify-content: space-around
-
     ;}  
+
+#box1{
+    display:flex; 
+    background-color: cyan;
+    flex-wrap: wrap;
+    width:10%;
+    height: 5%;
+}
 
 #work{
     display: flex;
@@ -52,9 +59,11 @@ p.indent {
 }
 
 .grid{
-    display:flex;
+    display: flexbox;
+    align-items: center;
     width: 100%;
-    grid-template-columns: repeat (3, 1fr);
+    justify-content: space-around;
+    grid-template-columns: repeat (2, 2fr);
     border-style: solid; border-color: red;}
 
 
@@ -66,44 +75,58 @@ p.indent {
 #contact-me{
     display: flex;
     flex-direction: row;
+    align-items: center;
     }
 
-    header {display:flexbox; background-color:cyan; width:100%; height: 100px; line-height: 100px;}
+header {
+    display:flexbox; background-color:cyan; 
+    width:100%; 
+    height: 100px; 
+    line-height: 100px;}
 
-    h1{text-align: left; display: inline; font-size: 36px; margin-top: 50px;}
+h1{
+    text-align: left;
+    display: inline; 
+    font-size: 36px; 
+    margin-top: 50px;}
     
-    #headshot{display:inline; z-index:1;}
+#headshot{
+    display:inline; 
+    z-index:1;
+}
     
-    header nav {
-        display: inline; 
-        position: relative;
-        float: right; 
-        line-height: 80px;
-        font-size: 24px;
+header nav {
+    display: inline; 
+    position: relative;
+    float: right; 
+    line-height: 80px;
+    font-size: 24px;
             }
     
-    header nav ul {margin: 10px 25px}
+header nav ul {
+    margin: 10px 25px}
     
-    ul li{
-        list-style-type: none; 
-        display: inline;
-        font-weight: 290;
-        margin-left: 25px;}
+ ul li{
+    list-style-type: none; 
+    display: inline;
+    font-weight: 290;
+    margin-left: 25px;}
     
-    .hero-banner{position:relative;
-        display:flexbox; 
-        margin-top: -8px;
-        height:287px; 
-        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701694567.jpg");}
+.hero-banner{position:relative;
+    display:flexbox; 
+    margin-top: -8px;
+    height:287px; 
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701694567.jpg");}
     
-    #hero {display: flexbox; 
-        float: right;
-        color: white; 
-        margin-right: -300px;
-        margin-top:150px ;font-size: 19px; 
-        font-weight:bold; 
-        font-family: Cambria, Cochin;
-        line-height: 90px;}
+#hero {display: flexbox; 
+    float: right;
+    color: white; 
+    margin-right: -300px;
+    margin-top:150px;
+    font-size: 19px; 
+    font-weight:bold; 
+     font-family: Cambria, Cochin;
+    line-height: 90px;}
     /* decided not to use a background for the box */
 
 
