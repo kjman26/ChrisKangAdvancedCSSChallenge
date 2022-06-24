@@ -29,4 +29,4 @@ Usage:
     3. click boxes to link to other sites (only 1 for now)
     4. click links at bottom to contact me and/or access my profiles
 
-
+Shout outs: classmates, TA's (especially Henry), and Joe!

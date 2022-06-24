@@ -116,6 +116,7 @@ p.indent {
     align-items: center;
     background-color: darkgray;
     color: white;
+    margin-top: 50px
     }
 
 header {
@@ -170,12 +171,33 @@ header nav ul {
     line-height: 90px;}
     /* decided not to use a background for the box */
 
-.title:hover{filter: sepia() ;
+.title:hover{
+    filter: sepia();
+    box-shadow: 10px;
 }
-@media (max-width:750px) {
+@media (max-width:994) {
+        nav {
+            float:left
+        }
+        .projects{
+            justify-content: space-evenly;
+        }
+    }
+@media (max-width:500) {
+    nav {
+        width:  auto;
+        float:left;
+        display: inline;
+        margin: auto;}
+        
+    .projects{
+        justify-content: space-evenly;
+        position: relative;}
 
-}
-
-@media (max-width:450) {
+    
+    .contact-info{
+        float: left;
+        display: inline;
+    }
 
 }
