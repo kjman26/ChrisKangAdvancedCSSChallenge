@@ -25,32 +25,45 @@ p.indent {
     margin-left: 30px;
     text-indent: 30px;
     width: 70%;
+    margin-top: 80px;
        }
-   
+
+ #work{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 75px;
+        ;}
+
 .projects{
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    width:600px;
-    margin-left: 30px;
-    border: solid;
+    flex-direction: row;
+    align-items: center;
+    width:60%;
+    margin-left: 110px;
+    border-style: groove;
     justify-content: space-evenly;
+
 }
 
 .title{
     display: flexbox;
     flex-wrap: wrap;
-    width: 22%;
+    width: 20%;
     border-style: solid;
     background-color: cyan;
     justify-content: space-around;
-    font-size: 12px
+    font-size: 12px;
+    margin-top: 225px;
+    margin-bottom: 25px;
     ;}  
 
 #first-title{
     background-image:url("https://mcdn.wallpapersafari.com/medium/86/22/GB49kZ.jpg");
     background-size: cover;
-    width: 600px;
+    width: 100%;
+    height: 500px;
     position: relative;
 }
 
@@ -88,20 +101,26 @@ p.indent {
     filter:drop-shadow(5px)
 }
 
+.contact-info ul{
+    margin-left:300px;
+    font-size: 28px;
+    text-decoration: underline;}
 
 .contact-info{
-    width: 70%;
-    
+    width: 70%;   
 }
 
 #contact-me{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: darkgray;
+    color: white;
     }
 
 header {
-    display:flexbox; background-color:cyan; 
+    display:flexbox; background-color:darkgray; 
+    color: white;
     width:100%; 
     height: 100px; 
     line-height: 100px;}
@@ -151,6 +170,8 @@ header nav ul {
     line-height: 90px;}
     /* decided not to use a background for the box */
 
+.title:hover{filter: sepia() ;
+}
 @media (max-width:750px) {
 
 }
