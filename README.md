@@ -2,7 +2,7 @@
 Github address:
     https://github.com/kjman26/advancedcsschallenge
 
-Screenshot: C:\users\kjman\repo\homework\challenges\advancedcsschallenge\images\Screenshot.png
+Screenshot:![screenshot_challenge2 ppg](https://user-images.githubusercontent.com/106338418/175982362-cf44fa77-90fc-48ba-aa98-0aa0eb025f7c.png)
 
 Motivation and Purpose: The goal of this challenge is to create an interactive profile to showcase myself and my work portfolios.
 
